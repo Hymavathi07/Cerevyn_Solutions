@@ -43,8 +43,7 @@ Visualizations include:
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/snehapadgaonkar/Household-energy-consumption-prediction.git
-   cd final
+   git clone https://github.com/Hymavathi07/Cerevyn_Solutions.git
 2. Load the Dataset: Ensure you have the dataset in the specified location or update the path in the notebook.
 3. Install the required libraries:
    ```bash
