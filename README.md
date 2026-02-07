@@ -1,6 +1,6 @@
 # Home Energy Consumption Prediction Based on Smart Meter Data
-(<img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/a172971d-ea0b-482a-a9b9-3f6fe57f2b1f" />
-)
+<img width="5000" height="2617" alt="image" src="https://github.com/user-attachments/assets/f8ea3f99-a6db-443b-90f9-0a4f598c7182" />
+
 ## Overview
 This project aims to create a predictive model for household energy consumption using historical data from smart meters and external factors such as weather conditions. \
 By leveraging the UCI Household Power Consumption Dataset and weather data from the Meteostat API, the model seeks to provide insights into energy usage patterns and assist in optimizing consumption.
@@ -19,7 +19,7 @@ By leveraging the UCI Household Power Consumption Dataset and weather data from 
 
 ## Requirements
 - Python 3.x
-- Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`, `ydata_profiling`, `meteostat`
+- Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`, `ydata_profiling`
 
 ## Data Preprocessing
 1. **Cleaning**: Handling missing values and formatting datetime.
@@ -29,16 +29,12 @@ By leveraging the UCI Household Power Consumption Dataset and weather data from 
 ## Model Training and Evaluation
 - **Model Used**: Linear Regression
 - **Evaluation Metrics**: RMSE, MAE, R-squared
-- The model achieved a high R-squared value of 99.86%, indicating excellent predictive accuracy.
 
 ## Data Visualization
 Visualizations include:
 - Time series plots of global active power.
 - Distribution analysis of energy consumption.
 - Correlation heatmaps and seasonal consumption trends.
-
-**For viewing the profiling of data use the link:** \
-[Household Energy Consumption Profile Report](https://snehapadgaonkar.github.io/Household-energy-consumption-prediction/household_consumption_profile_report.html)
 
 ## Future Scope
 1. **Integration with IoT Devices**: Expand the model to capture real-time data from smart home devices to improve accuracy and optimization of energy use.
@@ -53,7 +49,7 @@ Visualizations include:
 3. Install the required libraries:
    ```bash
    pip install -r requirements.txt
-4. Run the Notebook: Open the Jupyter Notebook and follow the steps for data preprocessing, feature engineering, and model evaluation.
+4. Run the Notebook: Open the Colab and follow the steps for data preprocessing, feature engineering, and model evaluation.
 
 ## Conclusion
 This project effectively utilizes machine learning to forecast household energy usage, achieving high accuracy with a 99.86% R-squared value. \
