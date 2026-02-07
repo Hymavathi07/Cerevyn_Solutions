@@ -1,5 +1,6 @@
 # Home Energy Consumption Prediction Based on Smart Meter Data
-![Diagram](images/hero.png)
+(<img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/a172971d-ea0b-482a-a9b9-3f6fe57f2b1f" />
+)
 ## Overview
 This project aims to create a predictive model for household energy consumption using historical data from smart meters and external factors such as weather conditions. \
 By leveraging the UCI Household Power Consumption Dataset and weather data from the Meteostat API, the model seeks to provide insights into energy usage patterns and assist in optimizing consumption.
